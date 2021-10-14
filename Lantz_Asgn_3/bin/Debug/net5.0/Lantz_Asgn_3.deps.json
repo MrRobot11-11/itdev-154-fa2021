@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "Lantz_Asgn_3/1.0.0": {
+        "runtime": {
+          "Lantz_Asgn_3.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Lantz_Asgn_3/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

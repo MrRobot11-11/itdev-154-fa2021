@@ -1,0 +1,32 @@
+E:\MATC\Fifth Semester\Data Structures\Weeks 3 & 4 Linked Lists\Lantz_Asgn_3\bin\Debug\net5.0\Lantz_Asgn_3.exe
+E:\MATC\Fifth Semester\Data Structures\Weeks 3 & 4 Linked Lists\Lantz_Asgn_3\bin\Debug\net5.0\Lantz_Asgn_3.deps.json
+E:\MATC\Fifth Semester\Data Structures\Weeks 3 & 4 Linked Lists\Lantz_Asgn_3\bin\Debug\net5.0\Lantz_Asgn_3.runtimeconfig.json
+E:\MATC\Fifth Semester\Data Structures\Weeks 3 & 4 Linked Lists\Lantz_Asgn_3\bin\Debug\net5.0\Lantz_Asgn_3.runtimeconfig.dev.json
+E:\MATC\Fifth Semester\Data Structures\Weeks 3 & 4 Linked Lists\Lantz_Asgn_3\bin\Debug\net5.0\Lantz_Asgn_3.dll
+E:\MATC\Fifth Semester\Data Structures\Weeks 3 & 4 Linked Lists\Lantz_Asgn_3\bin\Debug\net5.0\ref\Lantz_Asgn_3.dll
+E:\MATC\Fifth Semester\Data Structures\Weeks 3 & 4 Linked Lists\Lantz_Asgn_3\bin\Debug\net5.0\Lantz_Asgn_3.pdb
+E:\MATC\Fifth Semester\Data Structures\Weeks 3 & 4 Linked Lists\Lantz_Asgn_3\obj\Debug\net5.0\Lantz_Asgn_3.csproj.AssemblyReference.cache
+E:\MATC\Fifth Semester\Data Structures\Weeks 3 & 4 Linked Lists\Lantz_Asgn_3\obj\Debug\net5.0\Lantz_Asgn_3.GeneratedMSBuildEditorConfig.editorconfig
+E:\MATC\Fifth Semester\Data Structures\Weeks 3 & 4 Linked Lists\Lantz_Asgn_3\obj\Debug\net5.0\Lantz_Asgn_3.AssemblyInfoInputs.cache
+E:\MATC\Fifth Semester\Data Structures\Weeks 3 & 4 Linked Lists\Lantz_Asgn_3\obj\Debug\net5.0\Lantz_Asgn_3.AssemblyInfo.cs
+E:\MATC\Fifth Semester\Data Structures\Weeks 3 & 4 Linked Lists\Lantz_Asgn_3\obj\Debug\net5.0\Lantz_Asgn_3.csproj.CoreCompileInputs.cache
+E:\MATC\Fifth Semester\Data Structures\Weeks 3 & 4 Linked Lists\Lantz_Asgn_3\obj\Debug\net5.0\Lantz_Asgn_3.dll
+E:\MATC\Fifth Semester\Data Structures\Weeks 3 & 4 Linked Lists\Lantz_Asgn_3\obj\Debug\net5.0\ref\Lantz_Asgn_3.dll
+E:\MATC\Fifth Semester\Data Structures\Weeks 3 & 4 Linked Lists\Lantz_Asgn_3\obj\Debug\net5.0\Lantz_Asgn_3.pdb
+E:\MATC\Fifth Semester\Data Structures\Weeks 3 & 4 Linked Lists\Lantz_Asgn_3\obj\Debug\net5.0\Lantz_Asgn_3.genruntimeconfig.cache
+E:\MATC\Fifth Semester\Data Structures\Class Repository\Lantz_Asgn_3\bin\Debug\net5.0\Lantz_Asgn_3.exe
+E:\MATC\Fifth Semester\Data Structures\Class Repository\Lantz_Asgn_3\bin\Debug\net5.0\Lantz_Asgn_3.deps.json
+E:\MATC\Fifth Semester\Data Structures\Class Repository\Lantz_Asgn_3\bin\Debug\net5.0\Lantz_Asgn_3.runtimeconfig.json
+E:\MATC\Fifth Semester\Data Structures\Class Repository\Lantz_Asgn_3\bin\Debug\net5.0\Lantz_Asgn_3.runtimeconfig.dev.json
+E:\MATC\Fifth Semester\Data Structures\Class Repository\Lantz_Asgn_3\bin\Debug\net5.0\Lantz_Asgn_3.dll
+E:\MATC\Fifth Semester\Data Structures\Class Repository\Lantz_Asgn_3\bin\Debug\net5.0\ref\Lantz_Asgn_3.dll
+E:\MATC\Fifth Semester\Data Structures\Class Repository\Lantz_Asgn_3\bin\Debug\net5.0\Lantz_Asgn_3.pdb
+E:\MATC\Fifth Semester\Data Structures\Class Repository\Lantz_Asgn_3\obj\Debug\net5.0\Lantz_Asgn_3.csproj.AssemblyReference.cache
+E:\MATC\Fifth Semester\Data Structures\Class Repository\Lantz_Asgn_3\obj\Debug\net5.0\Lantz_Asgn_3.GeneratedMSBuildEditorConfig.editorconfig
+E:\MATC\Fifth Semester\Data Structures\Class Repository\Lantz_Asgn_3\obj\Debug\net5.0\Lantz_Asgn_3.AssemblyInfoInputs.cache
+E:\MATC\Fifth Semester\Data Structures\Class Repository\Lantz_Asgn_3\obj\Debug\net5.0\Lantz_Asgn_3.AssemblyInfo.cs
+E:\MATC\Fifth Semester\Data Structures\Class Repository\Lantz_Asgn_3\obj\Debug\net5.0\Lantz_Asgn_3.csproj.CoreCompileInputs.cache
+E:\MATC\Fifth Semester\Data Structures\Class Repository\Lantz_Asgn_3\obj\Debug\net5.0\Lantz_Asgn_3.dll
+E:\MATC\Fifth Semester\Data Structures\Class Repository\Lantz_Asgn_3\obj\Debug\net5.0\ref\Lantz_Asgn_3.dll
+E:\MATC\Fifth Semester\Data Structures\Class Repository\Lantz_Asgn_3\obj\Debug\net5.0\Lantz_Asgn_3.pdb
+E:\MATC\Fifth Semester\Data Structures\Class Repository\Lantz_Asgn_3\obj\Debug\net5.0\Lantz_Asgn_3.genruntimeconfig.cache
