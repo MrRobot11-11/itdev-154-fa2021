@@ -73,6 +73,7 @@ namespace Lantz_assignment_4
             //Traverse front to rear and print elements
             for (int i = front; i < capacity; i++)
                 Write(" {0} <-- ", queueArray[i]);
+                WriteLine();
 
             return;
         }
