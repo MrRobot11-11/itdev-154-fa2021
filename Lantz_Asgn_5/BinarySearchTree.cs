@@ -14,13 +14,13 @@ namespace Lantz_Asgn_5
         //The value of the root changes throughout operation
         //Value is needed for various functions
         public Node root = null;
+        public View vw = new View();
         
         //Ask user to create a tree with (n) number of nodes
         public void CreateTree()
         {
             int i, n, data;
             
-
             WriteLine("\nEnter the number of nodes you would like to create: ");
             n = Convert.ToInt32(Console.ReadLine());
 
@@ -35,6 +35,7 @@ namespace Lantz_Asgn_5
             }
             WriteLine("");
             WriteLine("\nThis is the tree we created!");
+            vw.CurrentValue();
             InOrder(root);
 
         }
@@ -51,12 +52,12 @@ namespace Lantz_Asgn_5
         //Recursive function to do in order traversal of BST
         public void InOrder(Node root)
         {
-            if(root != null)
-            {
-                InOrder(root.left);
-                Write(root.key + " ");
-                InOrder(root.right);
-            }
+                if(root != null) 
+                {
+                    InOrder(root.left);
+                    Write(root.key + " ");
+                    InOrder(root.right);
+                }
         }
         
         //Function to insert a new node w/ given key in BST
@@ -81,10 +82,13 @@ namespace Lantz_Asgn_5
         // new root
         public Node DeleteNode(Node root, int k)
         {
-
             // Base case
             if (root == null)
+            {
+                Write("Tree is empty: ");
                 return root;
+            }
+           
 
             // Recursive calls for ancestors of
             // node to be deleted

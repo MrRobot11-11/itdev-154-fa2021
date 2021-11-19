@@ -9,13 +9,13 @@ using System.Threading;
 
 namespace Lantz_Asgn_5
 {
-    class View
+    public class View
     {
         //Presented to the user
         public int GetMenuChoice()
         {
             int choice;
-            WriteLine("\n1: Display the contents of our tree, in order");
+            WriteLine("\n\n1: Display the contents of our tree, in order");
             WriteLine("2: Add a value to the tree");
             WriteLine("3: Delete a value from the tree");
             WriteLine("4: Exit");
@@ -23,8 +23,6 @@ namespace Lantz_Asgn_5
             choice = Convert.ToInt32(Console.ReadLine());
             return choice;
         }
-
-        
 
         //First thing the user will see
         public void HelloUser()
@@ -40,6 +38,12 @@ namespace Lantz_Asgn_5
             Thread.Sleep(2200);
             
         }
+
+        public void CurrentValue()
+        {
+            Write("\nCurrent values in tree: ");
+        }
+
 
         //Exit message to user
         public void Exit()
