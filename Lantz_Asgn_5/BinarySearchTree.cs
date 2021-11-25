@@ -10,13 +10,17 @@ namespace Lantz_Asgn_5
 {
     public class BinarySearchTree
     {
-        //Made this global so I could access it from the controller
-        //The value of the root changes throughout operation
-        //Value is needed for various functions
-        public Node root = null;
+       
+        public Node root; //Pointer that points to root of BST
         public View vw = new View();
+
+//Constructor to set root to null
+       public BinarySearchTree()
+        {
+            root = null;
+        }
         
-        //Ask user to create a tree with (n) number of nodes
+//Ask user to create a tree with (n) number of nodes
         public void CreateTree()
         {
             int i, n, data;
@@ -39,28 +43,28 @@ namespace Lantz_Asgn_5
             InOrder(root);
 
         }
-
+//Create new node
         public Node NewNode(int item)
         {
-            Node temp = new Node();
-            temp.key = item;
-            temp.left = temp.right = null;
+            Node temp = new Node(item);
             return temp;
         }
        
       
-        //Recursive function to do in order traversal of BST
+//Recursive function to do in order traversal of BST
         public void InOrder(Node root)
         {
+                //Base case when root becomes null
+                    //When we reach end of tree
                 if(root != null) 
                 {
                     InOrder(root.left);
-                    Write(root.key + " ");
+                    Write(root.data + " ");
                     InOrder(root.right);
                 }
         }
         
-        //Function to insert a new node w/ given key in BST
+        //Recursive function to insert a new node w/ given key in BST
         public Node Insert(Node node, int key)
         {
             //If the tree is empty, return a new node
@@ -68,7 +72,7 @@ namespace Lantz_Asgn_5
                 return NewNode(key);
 
             //If tree is not empty
-            if (key < node.key)
+            if (key < node.data)
                 node.left = Insert(node.left, key);
             else
                 node.right = Insert(node.right, key);
@@ -77,35 +81,29 @@ namespace Lantz_Asgn_5
             return node;
         }
 
-        // Given a binary search tree and a key, this
-        // function deletes the key and returns the
-        // new root
-        public Node DeleteNode(Node root, int k)
+/* Given a binary search tree and a key, this
+* recursive function deletes the key and returns the
+* new root
+*/
+        public Node DeleteNode(Node root, int data)
         {
-            // Base case
+            //Base case
             if (root == null)
-            {
-                Write("Tree is empty: ");
                 return root;
-            }
-           
-
+            
             // Recursive calls for ancestors of
             // node to be deleted
-            if (root.key > k)
+            if (root.data > data)
             {
-                root.left = DeleteNode(root.left, k);
+                root.left = DeleteNode(root.left, data);//Continue search in left subtree
                 return root;
             }
-            else if (root.key < k)
+            else if (root.data < data)
             {
-                root.right = DeleteNode(root.right, k);
+                root.right = DeleteNode(root.right, data);//Continue search in right subtree
                 return root;
             }
-
-            // We reach here when root is the node
-            // to be deleted.
-
+                
             // If one of the children is empty
             if (root.left == null)
             {
@@ -135,7 +133,7 @@ namespace Lantz_Asgn_5
                 // Delete successor. Since successor
                 // is always left child of its parent
                 // we can safely make successor's right
-                // right child as left of its parent.
+                // child as left of its parent.
                 // If there is no succ, then assign
                 // succ->right to succParent->right
                 if (succParent != root)
@@ -144,12 +142,12 @@ namespace Lantz_Asgn_5
                     succParent.right = succ.right;
 
                 // Copy Successor Data to root
-                root.key = succ.key;
+                root.data = succ.data;
 
                 return root;
             }
         }
-
+        
 
 
 

@@ -10,12 +10,14 @@ namespace Lantz_Asgn_5
 {
     public class Node
     {
-        public int key;
-        public Node left, right;
-    
-        public void Test()
+         public int data;
+         public Node left, right;
+
+        //Constructor to initialize values
+        public Node(int data)
         {
-            Write("Just a test");
+            this.data = data;
+            left = right = null;
         }
     }
 }

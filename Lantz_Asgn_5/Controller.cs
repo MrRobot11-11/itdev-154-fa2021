@@ -27,7 +27,11 @@ namespace Lantz_Asgn_5
                 choice = vw.GetMenuChoice();
 
                 if (choice == 4)
+                {
+                    WriteLine("See ya later!");
                     break;
+                }
+                    
 
                 switch (choice)
                 {
