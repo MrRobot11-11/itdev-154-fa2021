@@ -81,7 +81,10 @@ namespace Lantz_HashTable
         //Delete an item from inventory
         public void DeleteFromInventory(int itemNumber)
         {
-            groceryInventory.Remove(itemNumber);
+            if (groceryInventory.Contains(itemNumber))
+                groceryInventory.Remove(itemNumber);
+            else
+                WriteLine("\nItem does not exist in inventory");
         }
         
         public void DisplayTable()
