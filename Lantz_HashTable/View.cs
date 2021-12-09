@@ -16,14 +16,16 @@ namespace Lantz_HashTable
         {
             int choice;
 
-            WriteLine("Grocery Inventory System");
+            WriteLine("\nGrocery Inventory System");
             WriteLine("\n1. Add an item to the system");
-            WriteLine("2. Delete an item from the system ");
+            WriteLine("2. Delete an item from the system by Id ");
             WriteLine("3. Search for an item by Id Number");
-            WriteLine("4. Display all items in Inventory");
-            WriteLine("5. Exit the system");
+            WriteLine("4. Search for an item by name to get Id");
+            WriteLine("5. Display all items in Inventory");
+            WriteLine("6. Exit the system");
 
             choice = Convert.ToInt32(ReadLine());
+            
 
             return choice;
         }
