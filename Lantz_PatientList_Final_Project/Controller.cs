@@ -20,7 +20,7 @@ namespace Lantz_PatientList_Final_Project
             {
                 choice = vw.GetMenuChoice();
 
-                if (choice == 12)
+                if (choice == 10)
                     break;
 
                 switch (choice)
@@ -56,7 +56,7 @@ namespace Lantz_PatientList_Final_Project
                         patientData.SortByKeyAscending();
                         break;
 
-                    case 7: //Display sorted names by key ascending
+                    case 7: //Display sorted names by key descending
                         patientData.SortByKeyDescending();
                         break;
 

@@ -137,7 +137,7 @@ namespace Lantz_PatientList_Final_Project
         
         public void DisplayPatients()
         {
-            for (int i = 1; i < patientNameTable.Count + 1  ; i++)
+            for (int i = 1; i < patientNameTable.Count +1 ; i++)
             {
                 WriteLine("Patient Name: [{0}] Patient DOB: [{1}]", 
                     patientNameTable[i], patientDateofBirthTable[i]);
