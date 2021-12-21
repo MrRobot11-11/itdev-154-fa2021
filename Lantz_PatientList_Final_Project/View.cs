@@ -19,10 +19,11 @@ namespace Lantz_PatientList_Final_Project
             WriteLine("3. Search for a patient by Id Number");
             WriteLine("4. Search for a patient by name to get Id");
             WriteLine("5. Display all patients in database");
-            WriteLine("6. Display all patients by Id # ascending database");
-            WriteLine("7. Display all patients by Id # descending database");
-            WriteLine("8. Display all patients by Name ascending database");
-            WriteLine("9. Exit the system");
+            WriteLine("6. Display all patients by Id # in ascending order");
+            WriteLine("7. Display all patients by Id # in descending order");
+            WriteLine("8. Display all patients by Name in ascending order");
+            WriteLine("9. Display all patients by Name in ascending order");
+            WriteLine("10. Exit the system");
 
             choice = Convert.ToInt32(ReadLine());
 

@@ -189,19 +189,38 @@ namespace Lantz_PatientList_Final_Project
             }
         }
 
-        //Show table in ascending order by keys
+        //Show table in ascending order by name
         public void SortByNameAscending()
         {
-            ArrayList names = GetValues(patientNameTable);
+            int[] arrayKey = new int[patientNameTable.Count];//Temp hashtable key
+            string[] arrayValue = new string[patientNameTable.Count];//Temp hashtable value
 
-            //Sort the list
-            names.Sort();
-            //Fix me//////////////////////////////////////////////////////////
-            for (int i = 1; i < patientNameTable.Count; i++)
+            patientNameTable.Keys.CopyTo(arrayKey, 0);
+            patientNameTable.Values.CopyTo(arrayValue, 0);
+
+           Array.Sort(arrayValue, arrayKey); //Sort hashtable by value
+          
+            for (int i = 0; i < arrayKey.Length; i++)
             {
-                WriteLine("Patient Id: [{0}] Patient Name: [{1}]", patientNameTable[names[i]]);
+                WriteLine("Id number: [{0}] Patient name: [{1}]", arrayKey[i].ToString(), arrayValue[i].ToString());
             }
         }
 
+        //Show table in descending order by name
+        public void SortByNameDescending()
+        {
+            ArrayList nameValues = GetValues(patientNameTable);
+
+            //Sort the list
+            nameValues.Sort();
+
+            //Reverse the sorted list
+            nameValues.Reverse();
+
+            for (int i = 0; i < nameValues.Count; i++)
+            {
+                WriteLine("Patient Name: {0}", nameValues[i]);
+            }
+        }
     }//End of class
 }//End of namespace
