@@ -20,7 +20,7 @@ namespace Lantz_PatientList_Final_Project
             {
                 choice = vw.GetMenuChoice();
 
-                if (choice == 10)
+                if (choice == 12)
                     break;
 
                 switch (choice)
@@ -67,7 +67,6 @@ namespace Lantz_PatientList_Final_Project
                     case 9: //Display sorted names by name descending
                         patientData.SortByNameDescending();
                         break;
-
 
                     case 10: //Exit the system
                         break;
